@@ -3,6 +3,7 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container{
@@ -34,28 +35,81 @@ img{
 }
 
 .div-one, .div-two{
-    margin: 5%;
+    margin-left: 50px;
 }
 
 .div-two{
-    /* display: flex; */
-    /* flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
     font-size: 20px;
     gap: 30px 0;
 }
 
 label {
     display: block;
-    /* margin-bottom: 5px; */
-    /* font-weight: bold; */
 }
 
 form{
-    gap: 30px;
+    margin-top: 8px;
     display: block;
+    /* background-color: rgb(28,31,32); */
 }
 
-.one, .two, .three{
-    /* display: inline-block; */
-    margin: 0 20px 20px 0;
+.inputBox{
+    background-color: rgb(28,31,32);
+    color: rgb(14,128,129);
+    border: rgb(247,255,253);
 }
+
+td{
+    font-size: .8rem;
+    color: rgb(189,183,175);
+    letter-spacing: 1px ;
+    background-color: rgb(28,31,32);
+}
+
+.line{
+    color: rgb(28,31,32);
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.div-one{
+    font-weight: 500;
+    color: rgb(232,230,227);
+}
+
+.top{
+    font-size: 50px;
+}
+
+.mid{
+    font-size: 30px;
+}
+
+.bott{
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+button{
+    margin-top: 50px;
+    font-size: 15px;
+    padding: 8px 35px;
+    border: none;
+    background-color: rgb(14,128,129);
+    color: rgb(247,255,253);
+    border-radius: 3px;
+}
+
+.footer{
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+span{
+    color: rgb(14,128,129);
+}
+
