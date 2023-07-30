@@ -1,0 +1,61 @@
+/* styles.css */
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.image-container {
+    width: 55%;
+    height: 1300px;
+    overflow: hidden;
+}
+
+.right-div{
+    width: 45%;
+    /* height: 500px; */
+    background: rgb(28,31,32);
+    z-index: 9999;
+}
+
+img{
+    position: relative;
+    bottom: 50%;
+    right: 100%;
+}
+
+.right-div{
+    color: white;
+    font-size: 50px;
+}
+
+.div-one, .div-two{
+    margin: 5%;
+}
+
+.div-two{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    font-size: 20px;
+    gap: 30px 0;
+}
+
+label {
+    display: block;
+    /* margin-bottom: 5px; */
+    /* font-weight: bold; */
+}
+
+form{
+    gap: 30px;
+    display: block;
+}
+
+.one, .two, .three{
+    /* display: inline-block; */
+    margin: 0 20px 20px 0;
+}
