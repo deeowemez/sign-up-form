@@ -47,10 +47,6 @@ img {
     height: 100%;
     background: rgb(28,31,32);
     z-index: 9999;
-}
-
-
-.right-div{
     color: white;
     font-size: 50px;
     overflow-y: scroll;
@@ -79,7 +75,25 @@ form{
 .inputBox{
     background-color: rgb(28,31,32);
     color: rgb(14,128,129);
-    border: rgb(247,255,253);
+    border: 1px solid rgb(62,63,75);
+    border-radius: 2px;
+    padding: 8px;
+}
+
+input:focus, input:valid, input:invalid{
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid rgb(27,189,178); 
+}
+
+input:valid{
+    border: 2px solid rgb(62,174,72); 
+}
+
+.password:invalid{
+    border: 2px solid rgb(255,134,134); 
 }
 
 td{
