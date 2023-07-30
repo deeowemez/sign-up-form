@@ -6,6 +6,8 @@
     <title>Sign Up or Log-In</title>
     <link rel="icon" href="./photos/galaxy.png" type="image/png" title="Atom">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500&family=Press+Start+2P&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="container">
@@ -14,31 +16,48 @@
         </div>
         <div class="right-div">
             <div class="div-one">
-                <!-- <p class="head">Realize your deepest dreams.</p> -->
-                <p class="sub">Sign up now to get started!</p>
+                <p class="top">Realize your deepest dreams.</p>
+                <p class="mid">Sign up now to get started!</p>
+                <p class="bott">Let's Go!</p>
             </div>
             <div class="div-two">
                 <form action="./data.html" method="get">
-                    <div class="one">
-                        <label for="first_name">First Name: </label>
-                            <input type="text" id="first_name" placeholder="Neil">
-                        <label for="last_name">Last Name: </label>
-                            <input type="text" id="last_name" placeholder="Armstrong">
-                    </div>
-
-                    <div class="two">
-                        <label for="email">Email: </label>
-                            <input type="email" id="email" placeholder="neilarmstrong@gmail.com">
-                        <label for="phone_number">Phone Number: </label>
-                            <input type="number" id="phone_number">
-                    </div>
-                    
-                    <div class="three">
-                        <label for="password">Password: </label>
-                            <input type="password" id="password">
-                        <label for="confirm_password">Confirm Password: </label>
-                            <input type="password" id="confirm_password">
-                    </div>
+                    <table>
+                        <tr>
+                            <td><label for="first_name">FIRST NAME</label></td>
+                            <td class="line">_____________</td>
+                            <td><label for="last_name">LAST NAME</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="inputBox" id="first_name" placeholder="Neil"></td>
+                            <td>            </td>
+                            <td><input type="text" class="inputBox" id="last_name" placeholder="Armstrong"></td>
+                        </tr>
+                        <tr><td><br></td></tr>
+                        <tr>
+                            <td><label for="email">EMAIL</label></td>
+                            <td>            </td>
+                            <td><label for="phone_number">PHONE NUMBER</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="email" class="inputBox" id="email" placeholder="neilarmstrong@gmail.com"></td>
+                            <td>            </td>
+                            <td><input type="number" class="inputBox" id="phone_number"></td>
+                        </tr>
+                        <tr><td><br></td></tr>
+                        <tr>
+                            <td><label for="password">PASSWORD</label></td>
+                            <td>            </td>
+                            <td><label for="confirm_password">CONFIRM PASSWORD</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="password" class="inputBox" id="password"></td>
+                            <td>            </td>
+                            <td><input type="password" class="inputBox" id="confirm_password"></td>
+                        </tr>
+                    </table>
+                    <button type="submit">Create Account</button>
+                    <p class="footer">Already have an account? <span>Log in</span></p>
                 </form>
             </div>
         </div>
