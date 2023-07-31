@@ -4,6 +4,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Space Mono', sans-serif; */
 }
 
 .container{
@@ -13,8 +14,38 @@ body{
     overflow: hidden;
 }
 
+.nasa{
+    position: absolute;
+    width: 10vw;
+    margin: .5vh 0 0 1vw;
+    height: auto;
+    z-index: 2;
+}
+
+.nasa-container{
+    position: absolute;
+    left: 5vw;
+    top: 5vh;
+    width: 45vw;
+    height: 10vh;
+    opacity: .9;
+    border-radius: 20px;
+    background: rgb(9,13,24);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: whitesmoke;
+    font-family: 'Space Mono', sans-serif;
+    font-size: 1.1rem;
+    margin-left: 3vw;
+}
+
 .image-container {
-    width: 55%;
+    width: 55vw;
     height: 100%;
     overflow: hidden;
 }
@@ -26,58 +57,64 @@ img {
     position: relative; 
 }
 
-
-/* .image-container {
-    width: 55%; 
-    height: 100%; 
-    overflow-y: scroll; 
-    overflow-x: hidden;
-    position: relative;
-} 
-
-img {
-    width: 170%; 
-    height: auto; 
-    position: absolute;
-    transform: translate(-13%, -10%) scale(1.5); 
-} */
-
 .right-div{
-    width: 45%;
-    height: 100%;
+    width: 45vw;
+    height: 100vh;
     background: rgb(28,31,32);
-    z-index: 9999;
+    z-index: 4;
     color: white;
-    font-size: 50px;
-    overflow-y: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
-.div-one, .div-two{
+.div-one{
     margin-left: 50px;
+    font-weight: 500;
+    color: rgb(232,230,227);
 }
 
-.div-two{
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 20px;
-    gap: 30px 0;
+.top{
+    font-size: 2.6rem;
+    padding: 30px 0 20px 0;
 }
 
-label {
-    display: block;
+.mid{
+    font-size: 1.3rem;
+}
+
+.bott{
+    font-size: 1rem;
+    margin: 0 0 0 50px;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    z-index: 4;
+}
+
+.divider{
+    margin: 4.5rem 0 0 0;
+    width: 45vw;
+    height: 40vh;
+    background-color: rgb(37, 41, 43);
+    box-shadow: 2px 2px 2px 2px rgb(23, 25, 26);
+    z-index: -1;
 }
 
 form{
+    margin-left: 50px;
     margin-top: 8px;
     display: block;
+    z-index: 3;
 }
 
 .inputBox{
-    background-color: rgb(28,31,32);
-    color: rgb(14,128,129);
-    border: 1px solid rgb(62,63,75);
-    border-radius: 2px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(37, 41, 43);
+    border: 1px solid rgb(232,230,227);
+    box-shadow: 3px 3px 3px 0 rgb(26, 29, 31);
+    color: whitesmoke;
+    border-radius: 5px;
     padding: 8px;
+    letter-spacing: .5px;
 }
 
 input:focus, input:valid, input:invalid{
@@ -96,55 +133,41 @@ input:valid{
     border: 2px solid rgb(255,134,134); 
 }
 
-td{
-    font-size: .8rem;
-    color: rgb(189,183,175);
-    letter-spacing: 1px ;
-    background-color: rgb(28,31,32);
-}
-
-.line{
-    color: rgb(28,31,32);
-}
-
 table{
     border-collapse: collapse;
 }
 
-.div-one{
-    font-weight: 500;
-    color: rgb(232,230,227);
+td{
+    font-size: .7rem;
+    color: rgb(189,183,175);
+    letter-spacing: 2px ;
+    background-color: rgb(37, 41, 43);
 }
 
-.top{
-    font-size: 50px;
-}
-
-.mid{
-    font-size: 30px;
-}
-
-.bott{
-    font-size: 20px;
-    margin-top: 100px;
+.line{
+    color: rgb(37, 41, 43)
 }
 
 button{
     margin-top: 50px;
-    font-size: 15px;
-    padding: 8px 35px;
+    font-size: .95rem;
+    padding: 8px 25px;
     border: none;
     background-color: rgb(14,128,129);
     color: rgb(247,255,253);
-    border-radius: 3px;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    cursor: pointer;
 }
 
 .footer{
-    font-size: 15px;
-    margin-top: 40px;
+    font-size: .9rem;
+    padding: 1.8rem 0;
 }
 
 span{
     color: rgb(14,128,129);
+    cursor: pointer;
 }
 
