@@ -7,58 +7,65 @@
     <link rel="icon" href="./photos/galaxy.png" type="image/png" title="Atom">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500&family=Press+Start+2P&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Tektur:wght@400;500&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <div class="container">
         <div class="image-container">
+            <div class="nasa-container">
+                <div class="title">APOLLO STAR: Exploring Cosmic Frontiers</div>
+            </div>
+            <img src="./photos/nasa1.png" class="nasa" alt="nasa symbol.png">
             <img src="./photos/space3.jpg" alt="space.png">
         </div>
         <div class="right-div">
             <div class="div-one">
-                <p class="top">Realize your deepest dreams.</p>
-                <p class="mid">Sign up now to get started!</p>
-                <p class="bott">Let's Go!</p>
+                <div class="top">Embark on a Journey to Uncharted Realms.</div>
+                <div class="mid">Sign up now to get started!</div>
             </div>
             <div class="div-two">
-                <form action="./data.html" method="get">
-                    <table>
-                        <tr>
-                            <td><label for="first_name">FIRST NAME</label></td>
-                            <td class="line">_____________</td>
-                            <td><label for="last_name">LAST NAME</label></td>
-                        </tr>
-                        <tr>
-                            <td><input type="text" class="inputBox" id="first_name" placeholder="Neil" required></td>
-                            <td>            </td>
-                            <td><input type="text" class="inputBox" id="last_name" placeholder="Armstrong" required></td>
-                        </tr>
-                        <tr><td><br></td></tr>
-                        <tr>
-                            <td><label for="email">EMAIL</label></td>
-                            <td>            </td>
-                            <td><label for="phone_number">PHONE NUMBER</label></td>
-                        </tr>
-                        <tr>
-                            <td><input type="email" class="inputBox" id="email" placeholder="neilarmstrong@gmail.com" required></td>
-                            <td>            </td>
-                            <td><input type="number" class="inputBox" id="phone_number" required></td>
-                        </tr>
-                        <tr><td><br></td></tr>
-                        <tr>
-                            <td><label for="password">PASSWORD</label></td>
-                            <td>            </td>
-                            <td><label for="confirm_password">CONFIRM PASSWORD</label></td>
-                        </tr>
-                        <tr>
-                            <td><input type="password" class="inputBox password" id="password" required></td>
-                            <td>            </td>
-                            <td><input type="password" class="inputBox password" id="confirm_password" required></td>
-                        </tr>
-                    </table>
-                    <button type="submit">Create Account</button>
-                    <p class="footer">Already have an account? <span>Log in</span></p>
-                </form>
+                <div class="divider">
+                    <p class="bott">Let's Go!</p>
+                    <form action="./data.html" method="get">
+                        <table>
+                            <tr>
+                                <td><label for="first_name">FIRST NAME</label></td>
+                                <td class="line">_____________</td>
+                                <td><label for="last_name">LAST NAME</label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" class="inputBox" id="first_name" placeholder="Neil" required></td>
+                                <td></td>
+                                <td><input type="text" class="inputBox" id="last_name" placeholder="Armstrong" required></td>
+                            </tr>
+                            <tr><td><br></td></tr>
+                            <tr>
+                                <td><label for="email">EMAIL</label></td>
+                                <td></td>
+                                <td><label for="phone_number">PHONE NUMBER</label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="email" class="inputBox" id="email" placeholder="neilarmstrong@gmail.com" required></td>
+                                <td></td>
+                                <td><input type="number" class="inputBox" id="phone_number" required></td>
+                            </tr>
+                            <tr><td><br></td></tr>
+                            <tr>
+                                <td><label for="password">PASSWORD</label></td>
+                                <td></td>
+                                <td><label for="confirm_password">CONFIRM PASSWORD</label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="password" class="inputBox password" id="password" required></td>
+                                <td></td>
+                                <td><input type="password" class="inputBox password" id="confirm_password" required></td>
+                            </tr>
+                        </table>
+                        <button type="submit">Create Account</button>
+                        <p class="footer">Already have an account? <span>Log in</span></p>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
