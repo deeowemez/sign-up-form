@@ -93,7 +93,7 @@ img {
 .divider{
     margin: 4.5rem 0 0 0;
     width: 45vw;
-    height: 40vh;
+    height: 33vh;
     background-color: rgb(37, 41, 43);
     box-shadow: 2px 2px 2px 2px rgb(23, 25, 26);
     z-index: -1;
